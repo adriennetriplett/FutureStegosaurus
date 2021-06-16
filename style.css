@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+.outer {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.panel {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	width: 4%;
+	transition: all 0.5s ease;
+}
+
+.panel p {
+	transform: rotate(90deg);
+	transform-origin: 0;
+	transition: all 1s ease;
+}
+
+.home {
+	background: beige;
+	z-index: 10;
+}
+
+.one {
+	background: red;
+	z-index: 75;
+}
+
+.one p {
+	text-align: center;
+}
+
+.two {
+	background: purple;
+	z-index: 50;
+}
+
+.three {
+	background: orange;
+	z-index: 25;
+}
+
+.active {
+	width: 88%;
+}
+
+.active p {
+	transform: rotate(0);
+}
