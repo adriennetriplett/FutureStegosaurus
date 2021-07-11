@@ -128,3 +128,37 @@ body {
 	margin-top: 15vh;
 	font-size: 1.5em;
 }
+
+.about {
+	background-image: url("images/bar.jpg");
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+	background-repeat: none;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	margin-top: 15vh;
+	font-size: 1.5em;
+	min-width: 100%;
+	margin-bottom: 0;
+}
+
+.info {
+	background: rgba(0, 0, 0, 0.2);
+	top: 0;
+	display: block;
+	width: 100%;
+	padding-top: 0.7em;
+}
+
+.info2 {
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: block;
+	padding-bottom: 0.7em;
+	margin-bottom: 0em;
+}
