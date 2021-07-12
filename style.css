@@ -162,3 +162,35 @@ body {
 	padding-bottom: 0.7em;
 	margin-bottom: 0em;
 }
+
+.left-btn {
+	margin-right: 5vh;
+}
+
+.right-btn {
+	margin-left: 5vh;
+}
+
+.toprow {
+	margin-top: 25vh;
+}
+
+.bottomrow {
+	margin-top: 10vh;
+}
+
+.contact-btn {
+	height: 20vh;
+	font-size: 5vh;
+}
+
+.contact-btn a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact-btn:hover a {
+	color: black;
+}
+
+
