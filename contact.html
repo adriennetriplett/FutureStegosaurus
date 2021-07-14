@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 	<link href="style.css" rel="stylesheet"/> 
 	<link rel="icon" href="images/fs_icon.jpg"/>
+	<script src="checkHours.js"></script>
 </head>
 <body>
 	<div class="navbar fixed-top">
@@ -24,9 +25,9 @@
 		</div>
 		<div class="address row bottomrow justify-content-between">
 			<button type="button" class="col btn btn-outline-light contact-btn left-btn">
-				<a href="https://www.google.com/maps/place/2952+Cass+Ave,+Detroit,+MI+48201/@42.3427499,-83.0607827,17z/data=!3m1!4b1!4m5!3m4!1s0x8824d2b56e7c77cd:0x2293de253346688!8m2!3d42.342746!4d-83.058594">2952 Cass Ave<br>Detroit, MI</a>
+				<a href="https://www.google.com/maps/place/2952+Cass+Ave,+Detroit,+MI+48201/@42.3427499,-83.0607827,17z/data=!3m1!4b1!4m5!3m4!1s0x8824d2b56e7c77cd:0x2293de253346688!8m2!3d42.342746!4d-83.058594" target="_blank">2952 Cass Ave<br>Detroit, MI</a>
 			</button>
-			<button type="button" class="col btn btn-outline-light contact-btn right-btn">
+			<button onclick="checkHours()" type="button" class="hours col btn btn-outline-light contact-btn right-btn">
 				Hours: <br>4pm-2am
 			</button>
 		</div>	
