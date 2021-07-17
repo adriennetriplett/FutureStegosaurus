@@ -193,4 +193,33 @@ body {
 	color: black;
 }
 
+.portrait {
+	margin-top: 15vh;
+}
 
+@media (orientation: portrait) {
+	.portrait { 
+		display: block; 
+	}
+	.landscape { 
+		display: none; 
+	}
+	.row {
+		justify-content: center;
+	}
+	.contact-btn {
+		height: 15vh;
+		font-size: 3vh;
+		padding: 3vh;
+		margin: 3vh;
+	}
+}
+
+@media (orientation: landscape) {
+	.portrait { 
+		display: none; 
+	}	
+	.landscape { 
+		display: block; 
+	}
+}
